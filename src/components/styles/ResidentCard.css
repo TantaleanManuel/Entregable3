@@ -1,0 +1,77 @@
+.residenCard {
+    background-color: #062226;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.residenCard__status {
+    position: absolute;
+    top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 10px;
+    background-color: #062226;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.residenCard__status-circle {
+    width: 12px;
+    height: 12px;
+    aspect-ratio: 1;
+   
+    border-radius: 50%;
+}
+
+.Dead {
+    background-color: red;
+}
+
+.Alive {
+    background-color: greenyellow;    
+}
+
+.unknow {
+    background-color: gray;    
+}
+
+.residenCard__status-name {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.residenCard__info {
+    padding: 20px;
+}
+
+.residenCard__name {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.residenCard__line {
+ position: relative;
+ width: 200%;
+ left: -40px;
+}
+
+
+.residenCard__list {
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;   
+}
+
+.residenCard__item {
+    line-height: 20px;    
+}
+
+
+.residenCard__item span {
+    color: rgb(168, 168, 168);
+    font-weight: bold;
+    display: block;    
+}
